@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tp1_back end</title>
+  </head>
+  <body>
+<h1>practico</h1>
+
+<h1>ejercicio 1</h1>
+<?php
+
+$frase = "HOLA MUNDO ";
+echo$frase;
+echo"<h1>bienvenidos</h1>";
+ ?>
+ <br>
+ <hr>
+<h2>ejercicio 2</h2>
+<?php
+
+$a1 =10;
+$b2=50;
+$c3=85;
+$d4=99;
+
+$resultado1=$a1+$c3;
+$resultado2=$a1-$c3;
+$resultado3=$a1/$c3;
+$resultado4=$a1*$c3;
+$resultado5=$a1%$c3;
+
+echo "$a1+ $c3=$resultado1<br>";
+echo "$a1- $c3=$resultado2<br>";
+echo "$a1/ $c3=$resultado3<br>";
+echo "$a1* $c3=$resultado4<br>";
+echo "$a1% $c3=$resultado5<br>";
+
+
+?>
+<br>
+<hr>
+ <?php
+  echo"$resultado1<br>";
+  echo"$resultado2<br>";
+  echo"$resultado3<br>";
+  echo"$resultado4<br>";
+  echo"$resultado5<br>";
+    ?>
+
+
+<br>
+<h2>ejercicio 3 </h2>
+
+<?php
+$cel=20;
+$dev1=1.8;
+$dev2=32;
+$resultado_temp=($cel*$dev1)+$dev2;
+?>
+<?php echo "grados fahrenheit :$resultado_temp<br
+>"; ?>
+<br>
+<hr>
+<h2>ejecicio 4 </h2>
+
+<?php
+$alt=12;
+$base=18;
+$side1=$alt+$alt;
+$side2=$base+$base;
+$area_rectangulo=$base*$alt;
+$perimetro_rectangulo=$side1+$side2;
+echo "area rectangulo:$area_rectangulo<br>";
+echo "perimetro rectangulo:$perimetro_rectangulo<br>";
+?>
+
+
+
+
+<br>
+
+<hr>
+
+
+
+  </body>
+</html>
